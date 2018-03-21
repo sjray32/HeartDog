@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "e880aec749e241237c0535272d325cd0",
+    "content-hash": "d01f32e9d8141fb3ea453e754bee17b9",
     "packages": [
         {
             "name": "alrik11es/cowsayphp",
