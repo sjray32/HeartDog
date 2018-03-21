@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<title>I <3 My Dog</title>
+<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style type="text/css">
+		body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial, Helvetica, sans-serif}
+		body, html {height: 100%}
+
+	</style>
+<body>
+
+<style>
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+</style>
+<div class="dropdown">
+		<span align="right">Menu</span>
+			<div class="dropdown-content">
+				<p><a href = "Profile.html">Profile</a></p>
+				<p><a href = "Summary.html">Summary</a></p>
+				<p><a href = "HR.html">Heart Rate</a></p>
+				<p><a href = "Resp.html">Respiratory</a></p>
+				<p><a href = "Temp_both.html">Temperature</a></p>
+				<p><a href = "BP.html">Blood Pressure</a></p>
+				<p><a href = "PA.html">Physical Activity</a></p>
+				<p><a href = "Account.html">Account</a></p>
+				<p><a href = "Log_out.html">Log Out</a></p>
+			</div>
+	</div>
+
+<header class="w3-container w3-padding-32 w3-blue">
+	<p><a href = "Home_Page.html">I <3 My Dog</a></p>
+</header>
+
+<center>
+	<img src="logo.png" alt="logo">
+	<p>I <3 My Dog's design will consist of a combination of wearable sensors and a central station, as well as the
+use of an external data server for calculations, data processing, and data storage, and the use of a web
+application for consumption of the data. The wearables on the dog will include sensors for heart rate using
+EKG, physical activity using a pedometer, and external body temperature using a thermometer. The
+central station will have sensors for respiratory rate, blood pressure, and internal body temperature. Data
+collected from the wearables will be sent to the central hub via Bluetooth. The data from the central hub
+will be, both what is received from the wearables and what is collected at the station itself, will be sent to
+the server via Wi-Fi. Beetle BLE microprocessor is what we intend to use for the wearable portions of the
+system, because it can communicate with other microprocessors via Bluetooth. The central hub will be
+powered by the Raspberry Pi 3, as it is able to communicate over Wi-Fi and Bluetooth, which is what we
+need for the central unit of our system. Certain sensors will use specialized chips for data collection, such
+as the AD8232 Heart Rate Monitor to record EKG data.</p>
+</center>
+
+<footer class="w3-container w3-padding-32 w3-black w3-center"> 
+	<a href = "" target="_blank"> <i class="fa fa-github w3-hover-opacity"></i><a>
+	<p>Allen Dewberry, Samantha Ray, Storm Rubio, Aaron Skouby, Matthew Zemkosky</p>
+</footer>
+
+</body>
+</html>
